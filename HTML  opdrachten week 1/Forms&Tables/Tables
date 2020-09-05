@@ -1,0 +1,12 @@
+Tables
+
+Kacem el Bazi
+
+
+8.  Maak een reserverings formulier om een boek te reserveren. In dit formulier willen we graag het volgende weten:
+    ● Naam van dat persoon
+    ● Telefoonnummer
+    ● E-mail van dat persoon
+    ● Naam van dat boek
+    ● Aantal boeken om te reserveren. Het aantal moet minimaal 1 en maximaal 5 zijn.
+    ● Een submit knop

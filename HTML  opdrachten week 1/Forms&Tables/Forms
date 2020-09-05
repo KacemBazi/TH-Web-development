@@ -1,0 +1,74 @@
+Forms 
+
+Kacem el Bazi
+
+1.  Maak een HTML form waarbij de gebruiker zijn naam en achternaam in kan
+    vullen. Zie hieronder voor een voorbeeld:
+
+        Opdracht voltooid op Mijn eerste website.html!
+
+
+
+2.  Naast input text fields zijn er ook nog andere input fields. Zoals:
+        ● radiobutton
+        ● checkbox
+        ● password
+        ● reset
+        ● submit
+        ● date
+        ● search
+        ● time
+        ● hidden
+        ● email
+        Maak voor elk input field een voorbeeld.
+
+        Opdracht voltooid op Mijn eerste website.html!
+
+
+3.  Maak een input email field met een submit knop.
+
+        Opdracht voltooid op Mijn eerste website.html!
+
+
+    tip: wat gebeurt er wanneer je op de submit knop clickt met een random text?
+
+        Je wordt doorgelinkt naar een nieuwe venster.
+
+
+
+4.  Een formulier kun je ook groeperen. Zie hieronder voor een voorbeeld:
+
+        Opdracht voltooid op Mijn eerste website.html!
+
+
+
+5.  Naast input element heb je ook een select element. Hiermee kan je een
+    dropdown list maken. Maak een drop down list.
+
+        Opdracht voltooid op Mijn eerste website.html!
+
+
+
+6.  We hebben nu geleerd hoe je dropdown list, radio buttons en checkboxes
+    maak. Dit zijn 3 verschillende manieren om de gebruiker een keuze te laten
+    maken. Benoem voor dropdown list, radio buttons en checkboxes een situatie
+    waar je in kan gebruiken en leg dat uit?
+
+    Dropdown list: Beperkt keuze op antwoorden.
+
+    Radio buttons: Geeft een suggestie antwoord aan met bijbehorende kuezemogelijkeid.
+
+    Checkboxes: De keuze is overzichtelijk, en een optie voor meerdere koezes is mogelijk.
+
+
+7.  Maak een reserveringsformulier om een sport te reserveren. In dit formulier
+    willen we graag het volgende weten:
+        ● Naam van dat persoon
+        ● Off hij/zij lidmaatschap heeft
+        ● E-mail van dat persoon
+        ● Type sport om te reserveren. Keuze uit: tafeltennis, badminton of squash
+        ● Datum en tijdstip om te reserveren
+        ● Een checkbox waarbij de gebruiker akkoord gaat over de reserverings voorwaardes
+        ● Een submit knop
+
+        Opdracht voltooid op Mijn eerste website.html!
