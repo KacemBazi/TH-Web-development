@@ -41,7 +41,7 @@
                 <p>Elk jaar worden er zo'n 150 mensen geselecteerd om mee te doen, ongeacht hun achtergrond en opleiding. Twee maanden geleden zijn er al wat mensen begonnen.</p>
                     
                 <P>"Ik heb redelijk wat uitdagingen gehad in het leven. Als je dan nergens meer terecht kan, kan dat heel frustrerend zijn. Dat gevoel ervaar ik hier dus niet", vertelt Rinaldo Wouterson een van de deelnemers die meedraait in het project.</p>
-                    
+                <hr>    
                 <ol>
                     <li>item 1</li>
                     <li>item 2</li>
@@ -91,7 +91,7 @@
                     </ol>
                     <li>item 3</li>
                 </ul>
-                    
+                <hr>    
                 <header>
                     <h1>Headings opdrachten</h1>
                     <h1>Heading 1</h1>
@@ -101,7 +101,7 @@
                     <h5>Heading 5</h5>
                     <h6>Heading 6</h6>
                 </header>
-
+                <hr>
                 <div>
                     <fieldset> 
                         <legend><b><h3>Geef je gegevens op:</h3></b></legend>
@@ -286,6 +286,93 @@
                                 <input type="submit" value="Verzenden">
                     </fieldset>
                 </form> 
+                
+                <H1>Tabel/Rowspan</H1>
+                
+                <table>
+                    <thead>
+                    <tr>
+                        <th>VOORNAAM</th>
+                        <th>ACHTERNAAM</th>
+                        <th>LEEFTIJD</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>KACEM</td>
+                        <td>EL BAZI</td>
+                        <td>33</td>
+                        <td owspan="3">Rowspan</td>    
+                    </tr>
+                    <tr>
+                        <td>SANDRA</td>
+                        <td>PAROLLI</td>
+                        <td>26</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td>JOHAN</td>
+                        <td>DE BOER</td>
+                        <td>43</td>
+                    </tr>
+                    </tfoot>    
+                </table>
+                <hr>
+                <H1>Agenda</H1>
+                
+                <table>
+                    <thead>
+                    <tr>
+                        <th>MA</th>
+                        <th>DI</th>
+                        <th>WO</th>
+                        <th>DO</th>
+                        <th>VR</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>VOETBAL</td>
+                        <td></td>
+                        <td></td>
+                        <td>VOETBAL</td>
+                        <td></td>
+                        <td colspan="5">Colspan</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>LOPEN</td>
+                        <td>LOPEN</td>
+                        <td></td>
+                        <td>LOPEN</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>TENNIS</td>
+                        <td></td>
+                        <td>TENNIS</td>
+                    </tr>
+                    </tfoot>    
+                </table>
+                <hr>
+
+                <H1>Contact info</H1>
+
+                <form>
+                <label for="VNAAM">VOORNAAM:</label><br>
+                <input type="text" id="VNAAM" name="VNAAM" value="VOORNAAM">
+                <label for="ANAAM">ACHTERNAAM:</label>
+                <input type="text" id="ANAAM" name="ANAAM" value="ACHTERNAAM"><br><br>
+                <label for="LEEFTIJD">LEEFTIJD:</label><br>
+                <input type="text" id="LEEFTIJD" name="LEEFTIJD" value="LEEFTIJD">
+                <label for="E-MAIL">E-MAIL:</label>
+                <input type="text" id="E-MAIL" name="E-MAIL" value="E-MAIL">
+                
+                </form>
                         
                 <hr>
                 
@@ -296,10 +383,12 @@
                 <DIV>
                     <audio 
                         controls
-                            loop
-                                source src="explosie.mp3" type="audio/mpeg"  
-                                source src="explosie.ogg" type="audio/ogg" 
-                                controls="controls" autoplay>
+                            
+                        loop
+
+                        source src="explosie.mp3" type="audio/mpeg"  
+                        source src="explosie.ogg" type="audio/ogg" 
+                        controls="controls" autoplay>
                                 
                         <code>audio</code> element.
                     </audio>
